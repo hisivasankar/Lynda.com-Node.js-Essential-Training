@@ -1,0 +1,18 @@
+This chapter is generally about what is NPM and why it exists?
+
+NPM - Node Package manager
+
+Usually used for installing node packages in dev env. There are two types
+ * Local installation
+ * Global installation
+ Command used in npm are mostly self explanatory.
+
+Popular commands:
+  - npm list
+  - npm install `package name`
+  - npm install `package name` -g
+  - npm install remove
+
+Popular modules:
+ - httpster -> static file server
+ - express -> programmable server
