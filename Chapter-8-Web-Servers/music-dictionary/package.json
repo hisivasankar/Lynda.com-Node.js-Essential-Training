@@ -1,7 +1,7 @@
 {
   "name": "music-dictionary",
   "version": "1.0.0",
-  "description": "",
+  "description": "A collection of music related jargons and accepts new words",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
