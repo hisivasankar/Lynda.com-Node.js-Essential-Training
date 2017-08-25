@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"dic",
+				"dictionary-api"
+			],
+			[
+				"bo",
+				"bodyParser"
+			],
+			[
+				"sa",
+				"statusCode"
+			],
+			[
+				"wor",
+				"words"
+			],
+			[
+				"load",
+				"loadWords"
+			],
+			[
+				"staut",
+				"statusCode"
+			],
+			[
+				"stat",
+				"statusCode"
+			],
+			[
+				"err",
+				"errorHandler"
+			],
+			[
+				"a",
+				"appendChild"
+			],
+			[
+				"wo",
+				"wordHeader"
+			],
+			[
+				"create",
+				"createTextNode"
+			],
+			[
+				"fn",
+				"fnSuccessCallback"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
 				"form",
 				"formBody"
 			],
@@ -66,10 +118,6 @@
 			[
 				"sN",
 				"sNewDirPath"
-			],
-			[
-				"create",
-				"createDummyFiles"
 			],
 			[
 				"aViz",
@@ -296,16 +344,8 @@
 				"oControl"
 			],
 			[
-				"a",
-				"aAreas"
-			],
-			[
 				"rem",
 				"removeAnchorHref"
-			],
-			[
-				"text",
-				"texteditor"
 			],
 			[
 				"sH",
@@ -474,85 +514,54 @@
 			[
 				"selectedPa",
 				"selectedPageIndex"
-			],
-			[
-				"selectedP",
-				"selectedPageIndex"
-			],
-			[
-				"select",
-				"selectedURL"
-			],
-			[
-				"sel",
-				"selectedLinkType"
-			],
-			[
-				"EXP",
-				"expectedValue"
-			],
-			[
-				"exp",
-				"expect"
-			],
-			[
-				"SELE",
-				"selectedPageIndex"
-			],
-			[
-				"setSee",
-				"setSelectedPageIndex"
-			],
-			[
-				"se",
-				"selectedPageIndex"
-			],
-			[
-				"reig",
-				"registerService"
-			],
-			[
-				"regi",
-				"register"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "ex5.6-fs-read-stream.js",
+			"file": "Chapter-8-Web-Servers/music-dictionary/public/index.html",
 			"settings":
 			{
-				"buffer_size": 1199,
+				"buffer_size": 841,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Chapter-6-HTTP/ex6.1-http-request.js",
+			"file": "Chapter-8-Web-Servers/music-dictionary/public/styles.css",
 			"settings":
 			{
-				"buffer_size": 674,
+				"buffer_size": 367,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Chapter-6-HTTP/ex6.2-http-server.js",
+			"file": "Chapter-8-Web-Servers/music-dictionary/public/dictionary-handler.js",
 			"settings":
 			{
-				"buffer_size": 310,
+				"buffer_size": 2752,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Chapter-6-HTTP/ex6.3-http-file-server.js",
+			"file": "Chapter-8-Web-Servers/music-dictionary/app.js",
 			"settings":
 			{
-				"buffer_size": 2963,
+				"buffer_size": 780,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "npm config set proxy http://proxy:8080\nnpm config set https-proxy http://proxy:8080\n\nnpm config delete proxy \nnpm config delete https-proxy",
+			"settings":
+			{
+				"buffer_size": 139,
+				"line_ending": "Windows",
+				"name": "npm config set proxy http://proxy:8080"
 			}
 		}
 	],
@@ -662,14 +671,19 @@
 	[
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training",
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP",
-		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP/public"
+		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-8-Web-Servers",
+		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-8-Web-Servers/music-dictionary"
 	],
 	"file_history":
 	[
+		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-8-Web-Servers/music-dictionary/DictionaryData.json",
+		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP/ex6.1-http-request.js",
+		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP/ex6.2-http-server.js",
+		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-8-Web-Servers/music-dictionary/package.json",
+		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP/ex6.3-http-file-server.js",
+		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/ex5.6-fs-read-stream.js",
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP/public/index.html",
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP/ex6.4-http-json-server.js",
-		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP/ex6.3-http-file-server.js",
-		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP/ex6.2-http-server.js",
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP/public/styles.css",
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/ex5.4-fs-rename-remove-files.js",
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/ex5.5-fs-delete-files-folders.js",
@@ -789,15 +803,11 @@
 		"/C/All_Data/DEV_DStudio/lumira.components/dscomp/lumira.dynamicmenu/src/com/sap/ip/bi/zen/rt/components/dynamicmenu/md/DynamicMenuComponentMetadataProvider.java",
 		"/C/All_Data/DEV_DStudio/zen.main/rt/fw.base/framework/res/zen.rt.framework/resources/js/dispatcher.js",
 		"/C/All_Data/DEV_DStudio/zen.main/rt/appl.components/lumira.storybook/test/res/zen.rt.components.story.tests/resources/biapps/HYPERLINK_DIALOG_TEST/hyperlink_dialog_test-spec.js",
-		"/C/All_Data/DEV_DStudio/runtime-ZEN/com.sap.ip.bi.zen/repository/STORYBOOK_AUTHORING_TEST/story_authoring_test-spec.js",
-		"/C/All_Data/DEV_DStudio/zen.main/rt/appl.components/ui5components/res/zen.rt.components.ui5/formattedtextview/additional_properties_sheet/additional_properties_sheet_formattedtextview.js",
-		"/C/All_Data/DEV_DStudio/zen.main/rt/appl.components/lumira.storybook/res/zen.rt.components.story/resources/js/storypage_handler.js",
-		"/C/All_Data/DEV_DStudio/zen.main/rt/appl.components/ui5components/res/zen.rt.components.ui5/formattedtextview/css/component.css",
-		"/C/All_Data/DEV_DStudio/zen.main/rt/appl.components/ui5components/res/zen.rt.components.ui5/formattedtextview/additional_properties_sheet/additional_properties_sheet_formattedtextview.html"
+		"/C/All_Data/DEV_DStudio/runtime-ZEN/com.sap.ip.bi.zen/repository/STORYBOOK_AUTHORING_TEST/story_authoring_test-spec.js"
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 58.0
 	},
 	"find_in_files":
 	{
@@ -814,6 +824,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"makereq",
 			"force",
 			"updateVizWidgetVizDef",
 			"bForceMigrate",
@@ -940,8 +951,7 @@
 			"replacewith",
 			"replaceWith\nreplaceWith",
 			"replaceWith",
-			"replace",
-			"sendSe"
+			"replace"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -988,56 +998,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "ex5.6-fs-read-stream.js",
+					"file": "Chapter-8-Web-Servers/music-dictionary/public/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1199,
+						"buffer_size": 841,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								989,
-								989
+								471,
+								481
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
 							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 725.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter-6-HTTP/ex6.1-http-request.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 674,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								223,
-								223
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1047,28 +1027,61 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "Chapter-6-HTTP/ex6.2-http-server.js",
+					"buffer": 1,
+					"file": "Chapter-8-Web-Servers/music-dictionary/public/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 310,
+						"buffer_size": 367,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								304,
-								304
+								244,
+								244
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Chapter-8-Web-Servers/music-dictionary/public/dictionary-handler.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1046,
+								1046
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 612.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1076,32 +1089,63 @@
 				},
 				{
 					"buffer": 3,
-					"file": "Chapter-6-HTTP/ex6.3-http-file-server.js",
+					"file": "Chapter-8-Web-Servers/music-dictionary/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2963,
+						"buffer_size": 780,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1290,
-								1290
+								626,
+								626
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
+							"open_with_edit": true,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"auto_name": "npm config set proxy http://proxy:8080",
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
+							"default_dir": "C:\\All_Data\\DEV_Self\\Course-1-Node.js-Essential-Training",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1700,7 +1744,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 379.0,
+	"side_bar_width": 266.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

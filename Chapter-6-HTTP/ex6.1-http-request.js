@@ -3,7 +3,7 @@ var https = require("https");
 var options = {
     hostname: "www.google.com",
     port: 443,
-    method: "vGET"
+    method: "GET"
 };
 
 var req = https.request(options, function(res) {

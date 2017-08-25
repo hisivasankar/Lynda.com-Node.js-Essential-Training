@@ -1,0 +1,34 @@
+
+header {
+	width: 80%;
+	margin: auto;
+}
+.dictionary-container {
+	width: 80%;
+	border: 5px solid grey;
+	margin: auto;
+}
+
+.dictionary-container {
+	padding: 10px;
+}
+
+
+#dict dt {
+	color: blue;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+footer div {
+	background: red;
+	text-align: center;
+}
