@@ -14,7 +14,7 @@ header {
 }
 
 
-#dict dt {
+#dict-list dt {
 	color: blue;
 	cursor: pointer;
 	font-size: 14px;

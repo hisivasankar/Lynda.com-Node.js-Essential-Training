@@ -547,10 +547,13 @@
 			}
 		},
 		{
+			"contents": "var util = require('util'),\n    express = require('express'),\n    cors = require('cors'),\n    bodyParser = require('body-parser'),\n    aDictionaryData = require('./DictionaryData.json');\n\nvar SERVER_PORT = 3000;\n\nvar server = express();\n\nserver.use(bodyParser.json());\nserver.use(bodyParser.urlencoded({extended: false}));\n\nserver.use(function(req, res, next){\n\tutil.log(`${req.method} -> ${req.url}`);\n\tnext();\n});\n\nserver.use(cors());\n\nserver.get('/dictionary-api', function(req, res) {\n\tres.json(aDictionaryData);\n});\n\nserver.post('/dictionary-api', function(req, res){\n\tres.json({\"status\": \"cool\"});\n\tconsole.log(res.body) ;\n\t//aDictionaryData.push(res.body);\n});\n\nserver.use(express.static('./public'));\n\nserver.listen(SERVER_PORT);\n\nutil.log(`Server started ${SERVER_PORT}`);",
 			"file": "Chapter-8-Web-Servers/music-dictionary/app.js",
+			"file_size": 814,
+			"file_write_time": 131481208439444979,
 			"settings":
 			{
-				"buffer_size": 780,
+				"buffer_size": 781,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1093,15 +1096,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 780,
+						"buffer_size": 781,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								626,
-								626
+								627,
+								627
 							]
 						],
 						"settings":
