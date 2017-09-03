@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"statu",
+				"statusCode"
+			],
+			[
+				"diction",
+				"dictionary-api"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"addWor",
+				"addWordToDom"
+			],
+			[
+				"wor",
+				"word"
+			],
+			[
 				"dic",
 				"dictionary-api"
 			],
@@ -14,10 +34,6 @@
 			[
 				"sa",
 				"statusCode"
-			],
-			[
-				"wor",
-				"words"
 			],
 			[
 				"load",
@@ -246,10 +262,6 @@
 			[
 				"remove",
 				"removeClass"
-			],
-			[
-				"add",
-				"addClass"
 			],
 			[
 				"ad",
@@ -502,18 +514,6 @@
 			[
 				"setSele",
 				"setSelectedPageIndex"
-			],
-			[
-				"exe",
-				"expectedValue"
-			],
-			[
-				"sR",
-				"sResultCommand"
-			],
-			[
-				"selectedPa",
-				"selectedPageIndex"
 			]
 		]
 	},
@@ -532,7 +532,7 @@
 			"file": "Chapter-8-Web-Servers/music-dictionary/public/styles.css",
 			"settings":
 			{
-				"buffer_size": 367,
+				"buffer_size": 372,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,20 +541,25 @@
 			"file": "Chapter-8-Web-Servers/music-dictionary/public/dictionary-handler.js",
 			"settings":
 			{
-				"buffer_size": 2752,
+				"buffer_size": 3554,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "var util = require('util'),\n    express = require('express'),\n    cors = require('cors'),\n    bodyParser = require('body-parser'),\n    aDictionaryData = require('./DictionaryData.json');\n\nvar SERVER_PORT = 3000;\n\nvar server = express();\n\nserver.use(bodyParser.json());\nserver.use(bodyParser.urlencoded({extended: false}));\n\nserver.use(function(req, res, next){\n\tutil.log(`${req.method} -> ${req.url}`);\n\tnext();\n});\n\nserver.use(cors());\n\nserver.get('/dictionary-api', function(req, res) {\n\tres.json(aDictionaryData);\n});\n\nserver.post('/dictionary-api', function(req, res){\n\tres.json({\"status\": \"cool\"});\n\tconsole.log(res.body) ;\n\t//aDictionaryData.push(res.body);\n});\n\nserver.use(express.static('./public'));\n\nserver.listen(SERVER_PORT);\n\nutil.log(`Server started ${SERVER_PORT}`);",
 			"file": "Chapter-8-Web-Servers/music-dictionary/app.js",
-			"file_size": 814,
-			"file_write_time": 131481208439444979,
 			"settings":
 			{
-				"buffer_size": 781,
+				"buffer_size": 1152,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Chapter-6-HTTP/ex6.2-http-server.js",
+			"settings":
+			{
+				"buffer_size": 310,
 				"line_ending": "Windows"
 			}
 		},
@@ -675,10 +680,12 @@
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training",
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP",
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-8-Web-Servers",
-		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-8-Web-Servers/music-dictionary"
+		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-8-Web-Servers/music-dictionary",
+		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-8-Web-Servers/music-dictionary/public"
 	],
 	"file_history":
 	[
+		"/C/Users/I308944/AppData/Local/Microsoft/Windows/INetCache/IE/ZVI5KECD/open_gapps_log[1].txt",
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-8-Web-Servers/music-dictionary/DictionaryData.json",
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP/ex6.1-http-request.js",
 		"/C/All_Data/DEV_Self/Course-1-Node.js-Essential-Training/Chapter-6-HTTP/ex6.2-http-server.js",
@@ -805,8 +812,7 @@
 		"/C/All_Data/DEV_DStudio/zen.main/rt/appl.components/filterpanel/test/res/zen.rt.components.filterpanel/resources/biapp_tests/ERROR_ZEN_FILTER_COMPONENT_M-spec.js",
 		"/C/All_Data/DEV_DStudio/lumira.components/dscomp/lumira.dynamicmenu/src/com/sap/ip/bi/zen/rt/components/dynamicmenu/md/DynamicMenuComponentMetadataProvider.java",
 		"/C/All_Data/DEV_DStudio/zen.main/rt/fw.base/framework/res/zen.rt.framework/resources/js/dispatcher.js",
-		"/C/All_Data/DEV_DStudio/zen.main/rt/appl.components/lumira.storybook/test/res/zen.rt.components.story.tests/resources/biapps/HYPERLINK_DIALOG_TEST/hyperlink_dialog_test-spec.js",
-		"/C/All_Data/DEV_DStudio/runtime-ZEN/com.sap.ip.bi.zen/repository/STORYBOOK_AUTHORING_TEST/story_authoring_test-spec.js"
+		"/C/All_Data/DEV_DStudio/zen.main/rt/appl.components/lumira.storybook/test/res/zen.rt.components.story.tests/resources/biapps/HYPERLINK_DIALOG_TEST/hyperlink_dialog_test-spec.js"
 	],
 	"find":
 	{
@@ -827,6 +833,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"errorHandler",
+			"deleteWord",
 			"makereq",
 			"force",
 			"updateVizWidgetVizDef",
@@ -952,9 +960,7 @@
 			"getEven",
 			"sample ",
 			"replacewith",
-			"replaceWith\nreplaceWith",
-			"replaceWith",
-			"replace"
+			"replaceWith\nreplaceWith"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -996,7 +1002,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1020,13 +1026,14 @@
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
 							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1035,22 +1042,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 367,
+						"buffer_size": 372,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								244,
-								244
+								174,
+								174
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
 							"open_with_edit": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1065,15 +1073,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2752,
+						"buffer_size": 3554,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1046,
-								1046
+								2031,
+								2031
 							]
 						],
 						"settings":
@@ -1081,13 +1089,14 @@
 							"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark (SL).tmTheme",
 							"open_with_edit": true,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 612.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1096,15 +1105,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 781,
+						"buffer_size": 1152,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								627,
-								627
+								487,
+								487
 							]
 						],
 						"settings":
@@ -1115,14 +1124,42 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 510.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Chapter-6-HTTP/ex6.2-http-server.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1148,7 +1185,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]

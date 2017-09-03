@@ -1,0 +1,20 @@
+{
+  "name": "ws-simple",
+  "version": "1.0.0",
+  "description": "Simple Websocket app in node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websockets",
+    "node.js",
+    "chat"
+  ],
+  "author": "Sivasankar D",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "ws": "^3.1.0"
+  }
+}
