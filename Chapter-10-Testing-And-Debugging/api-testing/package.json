@@ -14,6 +14,7 @@
     "testing"
   ],
   "devDependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "nock": "^9.0.14"
   }
 }
